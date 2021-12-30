@@ -1,0 +1,76 @@
+/*pc*/
+@media ( min-width : 1024px )
+{
+    #header .menu-button {
+        display: none;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+
+}
+
+/*tablet*/
+ @media ( min-width : 740px) and ( max-width : 1024px )
+ {
+     #header .menu-button {
+         display: none;
+     }
+    
+}
+
+/*mobile*/
+@media (max-width : 739px)
+{   
+    #header {
+        overflow: hidden;
+    }
+    #header .search-button {
+        display: none;
+    }
+    #nav{
+        display: block;
+    
+    }
+    #nav .subnav {
+        position: initial;
+    }
+    #nav .subnav li{
+        background-color: #333;
+    }
+    #nav .subnav li a {
+        color: #fff;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #header #nav {
+        padding-left: 0px;
+    }
+    #header .ti-search {
+        display: none;
+    }
+    #slider .content-img {
+        display: none;
+    }
+    #list-member .list-image {
+        float: none;
+        padding: 0px 32px;
+        width:100%;
+    }
+   
+    #address .address-show {
+        width: 100%;
+        margin-bottom: 16px;
+        
+    }
+    #contact-section .info-input,
+    #contact-section .text-info ,
+    #contact-section .contact-input 
+    {
+        width: 100%;
+    }
+}
